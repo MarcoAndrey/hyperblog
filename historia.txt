@@ -1,1 +1,2 @@
-Esto es una prueba con git 
+Esto es una prueba con git
+este es un cambio que se hizo
