@@ -1,26 +1,45 @@
 body {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 62.5%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
 }
 
 .container {
-    width: 50%;
-    padding: 1em;
-    text-align: center;
-    border: 1px solid #333;
-    margin: 0 auto;
+  width: 50%;
+  padding: 1em;
+  text-align: center;
+  border: 1px solid #97ca3f;
+  border-radius: 32px;
+  margin: 0 auto;
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(151, 202, 63, 0.3);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(151, 202, 63, 0.3);
+  box-shadow: 10px 10px 50px 0px rgba(151, 202, 63, 0.3);
 }
 
 .container .post h1 {
-    font-size: 1.8rem;
-    color: blue;
+  font-size: 1.8rem;
+  color: #97ca3f;
 }
 
 .container .post p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
-.container .cabecera img  {
-    width: 80px;
+.cabecera {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: #97ca3f;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 32px 32px 0 0;
+}
+
+.cabecera h2 {
+  font-size: 2rem;
+  color: #daff99;
+}
+
+.container .cabecera img {
+  width: 80px;
 }
