@@ -1,2 +1,6 @@
 Esto es una prueba con git
-este es un cambio que se hizo
+
+estoy modificandolo con git clone se guarda con esc w
+se oprime i para insertar texto 
+
+este es un cambio que se hizo 
